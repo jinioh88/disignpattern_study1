@@ -1,7 +1,7 @@
 package adapter;
 
-public interface Print {
-    void printWeak();
+public abstract class Print {
+    public abstract void printWeak();
 
-    void printString();
+    public abstract void printString();
 }
