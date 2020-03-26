@@ -168,5 +168,21 @@ Prototpye 패턴의 등장인물
 - ConcreateProtyotype의 역할
   - 인스턴스를 복사해 새로운 인스턴스를 만드는 메서드를 실제로 구현한다. 예제의 MessageBox
 
+---
+## Builder - 복잡한 인스턴스 조립하기
+Builder 패턴
+- 구조를 가진 인스턴스를 쌓아올리는 패턴이다. 
+
+Builder 패턴의 등장인물
+- Builder의 역할
+  - 인스턴스를 생성하기 위한 인터페이스를 결정한다. 
+  - Builder 역할에는 인스턴스의 각 부분을 만들기 위한 메서드가 준비돼 있다. 
+- ConcreteBuilder의 역할
+  - Builder 인터페이스를 구현.
+- Director의 역할
+  - Builder 인터페이스를 사용해 인스턴스를 생성한다. 
+  - ConcreteBuilder 역할에 의존한 프로그래밍은 수행하지 않는다. 
+
+
 
 
