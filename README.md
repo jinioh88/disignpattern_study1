@@ -183,6 +183,21 @@ Builder 패턴의 등장인물
   - Builder 인터페이스를 사용해 인스턴스를 생성한다. 
   - ConcreteBuilder 역할에 의존한 프로그래밍은 수행하지 않는다. 
 
+---
+## Abstract Factory - 관련 부품을 조합해서 제품 만들기
+Abstract Factory 패턴
+- 추상적 공장에서는 추상적인 부품을 조합해 추상적인 제품을 만든다. 
+- 부품의 구체적인 구현에는 주목하지 않고 인터페이스에 주목한다. 
+- 인터페이스만을 사용해 부품을 조립하고 제품으로 완성한다. 
+- Template Method, Builder 패턴과 마찬가지로 Abstract Factory 패턴도 하위 클래스 단계에서 구체적 구현을 한다. 
+
+Abstract Factory 패턴의 등장인물
+- AbstractProduct의 역할
+  - AbstractFactory 역할에 의해 만들어진 추상적인 부품이나 제품의 인터페이스를 결정한다.
+  - 예제의 Link, Tray, Page 클래스.
+- AbstractFactory의 역할
+  - AbstractFactory는 AbstractProduct 역할의 인스턴스를 만들어 내기 위한 인터페이스를 결정한다. 
+
 
 
 

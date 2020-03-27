@@ -1,6 +1,6 @@
 package builder;
 
-public class TextBuilder extends Builder {
+public class TextBuilder implements Builder {
     private StringBuffer buffer = new StringBuffer();
 
     @Override
