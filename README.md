@@ -258,6 +258,23 @@ Bridge 패턴의 등장인물
     - ConcreteStrategy의 인스턴스를 가지고 있으며 필요에 따라 그것을 이용
     - 예제의 Player
     
+---
+# Part5 동일시하기
+## Composite - 그릇과 내용물을 동일시하기
+Composite 패턴
+- 그릇과 내용물을 동일시해서 재귀적인 구조를 만들기 위한 디자인 패턴이다.
+
+Composite 패턴의 등장인물
+- Leaf의 역할
+  - 내용물을 표시하는 역할을 하며 내부에는 다른 것을 넣을 수 없다. 
+  - 예제의 File
+- Composite의 역할
+  - 그릇을 나타내며 Leaf나 Composite을 넣을 수 있다. 
+  - 예제의 Directory
+- Component의 역할
+  - Leaf와 Component 역할을 동일시하는 역할을 한다. 
+  - 예제의 Entry
+
 
 
 
