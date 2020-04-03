@@ -274,6 +274,24 @@ Composite 패턴의 등장인물
 - Component의 역할
   - Leaf와 Component 역할을 동일시하는 역할을 한다. 
   - 예제의 Entry
+  
+---
+## Decorator - 장식과 내용물을 동일시하기
+Decorator 패턴
+- 오브젝트에 장식을 해 나가는 디자인 패턴을 Decorator 패턴이라 한다. 
+
+Decorator 패턴의 등장인물
+-  Component의 역할
+  - 기능을 추가할 때 핵심이 되는 역할.
+  - 장식을 하기 전의 스펀지케이크 역할로 케이크의 인터페이스만을 결정한다.
+  - 예제의 Display
+- ConcreteComponent의 역할
+  - 예제의 StringDisplay
+- Decorator의 역할
+  - Component 역할과 동일한 인터페이스를 가지고, 또한 Decorator 역할이 장식할 대상이 된느 Component의 역할도 가지고 있다. 
+  - 예제의 Border
+ 
+---
 
 
 
